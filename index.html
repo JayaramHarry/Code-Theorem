@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <img class="main-logo" src="icons/Logo.png"/>
+        <div class="logo">
+        <ul class="menu">
+            <li><a href="#"><img src="icons/dashboard-on.png"/> Dashboard</a></li>
+            <li><a href="#"><img src="icons/invoice-off.png"/> Invoices</a></li>
+            <li><a href="#"><img src="icons/proposals-off.png"/> Proposals</a></li>
+            <li><a href="#"><img src="icons/services-off.png"/> Services</a></li>
+            <li><a href="#"><img src="icons/transactions-off.png"/> Transactions</a></li>
+            <li><a href="#"><img src="icons/projects-off.png"/> Projects</a></li>
+            <li><a href="#"><img src="icons/customers.png"/> Customers</a></li>
+        </ul>
+        <div class="bottom-links">
+            <a href="#"><img src="icons/settings-off.png"/>Settings</a>
+            <a href="#"><img src="icons/logout-off.png"/>Log Out</a>
+        </div>
+    </div>
+    </aside>
+    <div class="content">
+        <div class="header">
+            <h1>Hi, Welcome back <span>Robert!</span></h1>
+            <div class="search-container">
+                <div class="search">
+                    <img src="icons/search.png"/>
+                    <input type="text" placeholder="Search...">
+                </div>
+                <div class="notifiaction-icon">
+                    <img src="icons/notifications.png"/>
+                    <img src="icons/Ellipse 4.png"/>
+                </div>
+                <img src="icons/Ellipse 3.png"/>
+
+            </div>
+        </div>
+        <div class="main-conrainer">
+            <div class="cards-section">
+                <h3>Finance Overview</h3>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-type">
+                            <h2>$ 2,77,120</h2>
+                            <p>Sales</p>
+                        </div>
+                        <img src="icons/insights.png"/>
+                    </div>
+                    <div class="card">
+                        <div class="card-type">
+                            <h2>$ 60,100</h2>
+                            <p>Expense</p>
+                        </div>
+                        <img src="icons/Expense.png"/>
+                    </div>
+                    <div class="card">
+                        <div class="card-type">
+                            <h2>$ 57,230</h2>
+                            <p>Profit</p>
+                        </div>
+                        <img src="icons/Profit.png"/>
+                    </div>
+                    <div class="card">
+                        <div class="card-type"> 
+                            <h2>$ 1,60,124</h2>
+                            <p>Income</p>
+                        </div>
+                        <img src="icons/Income.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="create-project">
+                    <h2>Current Projects</h2>
+                    <button class="create-button">Create</button>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Customer</th>
+                            <th>Sent Date</th>
+                            <th>Amount</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Travel app design</td>
+                            <td>Jacob Jones</td>
+                            <td>28-Oct-2022</td>
+                            <td>$240.90</td>
+                            <td><div class="sent">
+                                SENT
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <td>UX Research for Event management app</td>
+                            <td>Wade Women</td>
+                            <td>10-Oct-2022</td>
+                            <td>$120.00</td>
+                            <td><div class="draft">DRAFT</div></td>
+                        </tr>
+                        <tr>
+                            <td>Redesign - Food delivery app</td>
+                            <td>Annette Black</td>
+                            <td>15-Oct-2022</td>
+                            <td>$351.00</td>
+                            <td><div class="paid">PAID</div></td>
+                        </tr>
+                        <tr>
+                            <td>Web App - Online Learning</td>
+                            <td>Cameron Williamson</td>
+                            <td>15-Oct-2022</td>
+                            <td>$240.90</td>
+                            <td><div class="paid">PAID</div></td>
+                        </tr>
+                        <tr>
+                            <td>Railway web casestudy</td>
+                            <td>Robert Fox</td>
+                            <td>13-Oct-2022</td>
+                            <td>$153.00</td>
+                            <td><div class="sent">SENT</div></td>
+                        </tr>
+                        <tr>
+                            <td>Responsive web design</td>
+                            <td>Floyd Miles</td>
+                            <td>06-Oct-2022</td>
+                            <td>$140.90</td>
+                            <td><div class="rejected">REJECTED</div></td>
+                        </tr>
+                        <tr>
+                            <td>Music app design</td>
+                            <td>Theresa Webb</td>
+                            <td>04-Oct-2022</td>
+                            <td>$345.90</td>
+                            <td><div class="draft">DRAFT</div></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        
+            <div class="events-container">
+                <p class="event-text">Events</p>
+                <div class="events-profiles">
+                    <div class="event">
+                        <img src="icons/Ellipse 45.png"/>
+                    <div>
+                        <h3>Wade Warren</h3>
+                        <p><img src="icons/🎂 Birthday.png"/> - Today</p>
+                    </div>
+                    </div>
+                    <button>Wish</button>
+                </div>
+                <div class="events-profiles">
+                    <div class="event">
+                    <img src="icons/Ellipse 46.png"/>
+                    <div>
+                        <h3>Wade Warren</h3>
+                        <p><img src="icons/🎉 Joining Us.png"/> - Today</p>
+                    </div>
+                    </div>
+                    <button>Congratulations</button>
+                </div>
+                <div class="events-profiles last">
+                    <img src="icons/Ellipse 47.png"/>
+                    <div>
+                        <h3>Wade Warren</h3>
+                        <p>Work Anniversary - 7 September 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
